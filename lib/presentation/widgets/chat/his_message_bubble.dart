@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HimMessageBubble extends StatelessWidget {
-  const HimMessageBubble({super.key});
+class HisMessageBubble extends StatelessWidget {
+  const HisMessageBubble({super.key});
 
   @override
   Widget build(BuildContext context) {
