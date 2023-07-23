@@ -1,4 +1,4 @@
-enum FromWho { mine, his }
+enum FromWho { me, his }
 
 class Message {
 
