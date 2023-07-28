@@ -13,7 +13,7 @@ class GetYesNoAnwser {
 
     final yesNoModel = YesNoModel.fromJsonMap(response.data);
 
-    return Message(text: yesNoModel.answer, fromWho: FromWho.his, imageUrl: yesNoModel.image);
+    return yesNoModel.toMessageEntity();
 
   }
 
